@@ -1,0 +1,46 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+
+<head xmlns="http://www.w3.org/1999/html">
+    <title>Life is beautiful</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
+</head>
+<body>
+<header>
+    <div class="header-wrapper">
+        <div class="container header">
+           <!-- <a href="">Life is Beautiful.</a> -->
+            <span><i class="fas fa-anchor fa-2x"></i></span>
+        </div>
+    </div>
+    <div class="top-wrapper">
+        <div class="container top">
+            <h1>Life</h1>
+            <h1>is</h1>
+            <h1>Beautiful.</h1>
+        </div>
+    </div>
+    <div class="profile-wrapper">
+        <div class="profile container">
+            <div class="profile-img-box">
+                <img class="profile-img" src="{% static 'blog/images/profile.jpg' %}" alt="プロフィール"　width="216.5" height="232.5">
+                <h1>Koki Ionue</h1>
+                <span class="status">Tokyo, Japan</span><br>
+                <span class="keio status">Keio University</span><br>
+                <span class="status">#EDM #sea #programing #surfing #coffee</span><br>
+            </div>
+            <div class="profile-box">
+                <div class="short-sentence">
+                    Hi, I'm Koki. I am learning Python and some other languages.
+                    I want be a freelance engineer, and hope to live near beautiful sea.
+                    In this site, I will show you my history, and my personal information.
+                    I would like you to know me more. Thank you　for your visiting.
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+</body>
