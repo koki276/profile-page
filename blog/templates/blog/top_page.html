@@ -6,14 +6,20 @@
     <title>Life is beautiful</title>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
 </head>
 <body>
 <header>
     <div class="header-wrapper">
         <div class="container header">
-           <!-- <a href="">Life is Beautiful.</a> -->
-            <span><i class="fas fa-anchor fa-2x"></i></span>
+            <ul class="header-list">
+                <li class="list-item">about</li>
+                <li class="list-item">history</li>
+                <li class="list-item">interests</li>
+                <li class="list-item">hobby</li>
+                <span><i class="fas fa-anchor fa-x"></i></span>
+            </ul>
         </div>
     </div>
     <div class="top-wrapper">
@@ -22,22 +28,25 @@
             <h1>is</h1>
             <h1>Beautiful.</h1>
         </div>
+        <span><i class="fas fa-angle-double-down"></i></span>
+    </div>
+    <div class="introduction-wrapper">
+        <div class="introduction">
+
+        </div>
     </div>
     <div class="profile-wrapper">
         <div class="profile container">
-            <div class="profile-img-box">
-                <img class="profile-img" src="{% static 'blog/images/profile.jpg' %}" alt="プロフィール"　width="216.5" height="232.5">
-                <h1>Koki Ionue</h1>
-                <span class="status">Tokyo, Japan</span><br>
-                <span class="keio status">Keio University</span><br>
-                <span class="status">#EDM #sea #programing #surfing #coffee</span><br>
+            <div class="profile-contents">
+                <h1>Hello</h1>
             </div>
-            <div class="profile-box">
-                <div class="short-sentence">
-                    Hi, I'm Koki. I am learning Python and some other languages.
-                    I want be a freelance engineer, and hope to live near beautiful sea.
-                    In this site, I will show you my history, and my personal information.
-                    I would like you to know me more. Thank you　for your visiting.
+            <div class="profile-img-box">
+                <img class="profile-img" src="{% static 'blog/images/profile.jpg' %}" alt="プロフィール" height="600px">
+                <h1>Koki Ionue</h1>
+                <div class="status-list">
+                    <span class="status">Tokyo, Japan</span><br>
+                    <span class="keio status">Keio University</span><br>
+                    <span class="status">#EDM #sea #programing #surfing #coffee</span><br>
                 </div>
             </div>
         </div>
